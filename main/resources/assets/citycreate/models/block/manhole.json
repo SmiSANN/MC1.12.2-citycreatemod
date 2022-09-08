@@ -1,0 +1,21 @@
+{
+"parent": "block/block",
+"textures": {
+"particle": "citycreate:blocks/manhole",
+"bottom": "citycreate:blocks/manhole",
+"side": "citycreate:blocks/manhole",
+"inside": "citycreate:blocks/manhole"
+}
+"elements": [
+{ "from": [ 0, 0, 0 ],
+"to": [ 16, 16, 1 ],
+"faces": {
+"down": { "texture": "#bottom" },
+"north": { "texture": "#side" },
+"south": { "texture": "#side" },
+"west": { "texture": "#side" },
+"east": { "texture": "#side" }
+}
+}
+]
+}
